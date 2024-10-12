@@ -155,13 +155,15 @@ const Navbar = () => {
           <div className="flex items-center justify-between gap-x-8">
             {/* Header Logo */}
             <Link className="" href="/">
-              <h1 className="text-4xl">Timoplumbers</h1>
-              {/* <Image
-                src="assets/img/logo-violet-dark.png"
-                alt="Masco"
-                width={109}
-                height={24}
-              /> */}
+              <div className="inline-flex items-center">
+                <Image
+                  src="/assets/img/logo.png"
+                  alt="Masco"
+                  width={40}
+                  height={32}
+                />
+                <h1 className="text-3xl">Tmoplumbers &amp; Services</h1>
+              </div>
             </Link>
             {/* Header Logo */}
             {/* Header Navigation */}
@@ -219,11 +221,11 @@ const Navbar = () => {
                 Login
               </Link> */}
               <Link
-                href="#Contact"
+                href="tel:+254792398338"
                 className="btn is-atomic-tangerine btn-animation group hidden rounded-[3px] sm:inline-block"
               >
                 <b className="inline-flex  gap-2">
-                  <Phone />+ 254 7010 64273
+                  <Phone />+ 254 7923 98338
                 </b>
               </Link>
               {/* Responsive Offcanvas Menu Button */}

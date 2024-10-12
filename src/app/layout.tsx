@@ -11,7 +11,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 // const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Timoplumbers",
+  title: "Tmoplumbers & Services",
   description: "Your Plumbing Problems, Our Priority!",
 };
 

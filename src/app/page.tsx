@@ -13,6 +13,7 @@ import {
 import { useEffect } from "react";
 import Navbar from "@/components/navbar";
 import TikTokGrid from "@/components/tiktokgrid";
+import Link from "next/link";
 
 export default function Home() {
   useEffect(() => {
@@ -56,7 +57,7 @@ export default function Home() {
                         Your Plumbing Problems, Our Priority!
                       </h1>
                       <p className="mb-8 lg:mb-[50px]">
-                        At Timoplumbers, we offer professional plumbing services
+                        At Tmoplumbers, we offer professional plumbing services
                         to homes and businesses across Kenya. With a team of
                         skilled and certified plumbers, we are committed to
                         delivering reliable, efficient, and affordable plumbing
@@ -225,14 +226,14 @@ export default function Home() {
                         {/* Section Block */}
                         <div className="mb-5">
                           <h2 className="font-GeneralSans font-semibold">
-                            About Timoplumbers
+                            About Tmoplumbers
                           </h2>
                         </div>
                         {/* Section Block */}
                       </div>
                       {/* Section Wrapper */}
                       <p>
-                        Timoplumbers is a leading plumbing company in Kenya with
+                        Tmoplumbers is a leading plumbing company in Kenya with
                         a mission to provide top-tier plumbing services to
                         residential, commercial, and industrial clients. With
                         years of experience and a dedication to quality, we have
@@ -534,7 +535,7 @@ export default function Home() {
                         Arrive Within 1 Hour
                       </div>
                       <p className="text-xl leading-[1.5]">
-                        Our handyman will arrive on time, complete the job
+                        Our team will arrive on time, complete the job
                         efficiently, and ensure everything is done to your
                         satisfaction.
                       </p>
@@ -858,8 +859,8 @@ export default function Home() {
                         <p className="pt-5">
                           Our pricing depends on the type and scope of the
                           service. We believe in providing affordable and
-                          transparent pricing. Contact us for a free quote based
-                          on your specific plumbing needs.
+                          transparent pricing. Contact us for a quote based on
+                          your specific plumbing needs.
                         </p>
                       </div>
                       {/* Accordion Body */}
@@ -1047,8 +1048,8 @@ export default function Home() {
                           Chat with us
                         </div>
                         <p>
-                          We&apos;re waiting to help you every Monday-Friday
-                          from 9 am to 5 pm EAT easily.
+                          We&apos;re waiting to help you every Monday-Sunday
+                          within 24 hours.
                         </p>
                       </div>
                     </div>
@@ -1067,14 +1068,19 @@ export default function Home() {
                           Give us a call
                         </div>
                         <p>
-                          Give us a ring at
+                          Give us a ring at{" "}
                           <a
-                            href="tel:+01234567890"
+                            href="tel:+254792398338"
                             className="font-semibold hover:text-ColorBlue"
                           >
-                            (+012-345-567-890)
+                            (+254-792-398-338)
                           </a>
-                          . Every monday-friday from 9 am to 5 pm.
+                          <a
+                            href="tel:+254732951288"
+                            className="font-semibold hover:text-ColorBlue"
+                          >
+                            (+254-732-951-288)
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -1093,13 +1099,13 @@ export default function Home() {
                           Email Us
                         </div>
                         <p>
-                          Drop us an email at
+                          Drop us an email at{" "}
                           <a
-                            href="mailto:example@yourmail.com"
+                            href="mailto:tmoplumbers@gmail.com"
                             className="font-semibold underline underline-offset-4 hover:text-ColorBlue"
                           >
-                            example@gmail.com
-                          </a>
+                            tmoplumbers@gmail.com
+                          </a>{" "}
                           and you&apos;ll receive a reply within 24 hours.
                         </p>
                       </div>
@@ -1225,14 +1231,19 @@ export default function Home() {
                   {/* Footer Widget Item */}
                   <div className="flex flex-col gap-y-7 md:col-span-3 lg:col-span-1">
                     {/* Footer Logo */}
-                    <a href="index.html">
-                      <Image
-                        src="/assets/img/logo-tangerine-light.png"
-                        alt="Masco"
-                        width={109}
-                        height={24}
-                      />
-                    </a>
+                    <Link className="text-white" href="/">
+                      <div className="inline-flex items-center">
+                        <Image
+                          src="/assets/img/logo.png"
+                          alt="Masco"
+                          width={64}
+                          height={32}
+                        />
+                        <h1 className="text-4xl text-white">
+                          Tmoplumbers &amp; Services
+                        </h1>
+                      </div>
+                    </Link>
                     {/* Footer Content */}
                     <div>
                       {/* Footer About Text */}
@@ -1245,7 +1256,7 @@ export default function Home() {
                         href="mailto:yourdemo@email.com"
                         className="my-6 block underline-offset-4 transition-all duration-300 hover:underline"
                       >
-                        yourdemo@email.com
+                        tmoplumbers@gmail.com
                       </a>
                       {/* Footer Social Link */}
                       <div className="flex flex-wrap gap-5">
